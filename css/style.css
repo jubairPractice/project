@@ -1,0 +1,279 @@
+:root {
+    --darkColor:rgb(0, 0, 0);
+    --whiteColor:white;
+    --btnColor:rgb(255, 96, 117);
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+*::selection {
+
+    background-color:var(--btnColor);
+    color:var(--whiteColor);
+    
+    
+}
+
+body {
+    font-family:"Kreon",sans-sarif;
+
+    
+}
+
+
+h4 {
+    font-family:sans-serif;
+}
+
+#hero-section {
+    min-height: 100vh;
+}
+
+
+#nav-items  {
+    background-color:white;
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+    position:sticky;
+    top:0;
+    z-index: 1;
+
+}
+
+
+
+
+#nav-items a {
+    text-decoration: none;
+    color:var(--darkColor);
+    font-size:25px;
+    font-weight: bolder;
+
+}
+
+#nav-items #active {
+
+    color:var(--btnColor);
+
+}
+
+#nav-items a:hover {
+    color:gray;
+
+}
+
+#nav-items a:focus {
+    color:var(--btnColor);
+
+}
+
+
+#hero-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom:30px;
+
+}
+p {
+    font-size:20px;
+    line-height:30px;
+    margin-bottom:30px;
+    
+
+}
+
+#download-btn {
+    font-size:25px;
+    padding:8px;
+    padding-right:25px;
+    padding-left:25px;
+    color:var(--whiteColor);
+    background-color:var(--btnColor);
+    border:none;
+    border-radius:2px;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#download-btn:hover {
+    background-color:rgb(240, 70, 92);
+    transform: translate(4px ,-4px);
+    
+}
+
+#profile-pic {
+    width:280px;
+    height:auto;
+    border: 2px solid var(--btnColor);
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+    object-fit: contain;
+
+}
+
+#profile-pic:hover {
+    transform: translate(4px ,-4px);
+
+}
+
+#section2 {
+    font-family: sans-serif;
+    background-color:rgb(227, 240, 235);
+}
+
+.section2-link {
+    color:rgb(0, 181, 253);
+    font-size: large;
+
+}
+
+
+
+.box1-title, .box2-title  {
+    font-family: sarif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom:25px;
+    letter-spacing: -1px;
+   
+}
+
+.box1-h5 , .box2-h5 {
+    margin-bottom:25px;
+}
+
+.box1-p , .box2-p {
+    font-family: kreon;
+}
+
+
+#box1 span , #box2 span {
+    font-size: 35px;
+    color:var(--darkColor);
+}
+
+
+#box1 , #box2 {
+    box-shadow: 3px 0  3px 0 gray;
+    transition:all 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+#box1:hover , #box2:hover {
+    transform: translate(4px,-4px);
+}
+
+#works img {
+    width:310px;
+    height:auto;
+}
+#working-img1 img, #working-img2 img, #working-img3 img, #working-img4 img {
+    width:260px;
+    height:auto;
+}
+
+#works h2 {
+    font-weight: bolder;
+}
+
+#works .badge {
+    background-color:rgb(33, 33, 97);
+}
+
+#index1, #index2, #index3, #index4 {
+    transition:all 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+#index1:hover, #index2:hover, #index3:hover, #index4:hover {
+    transform: translate(4px,-4px);
+}
+
+
+#blog-section {
+    min-height:100vh;
+
+}
+
+
+#header {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom:30px;
+
+}
+
+#blog1-title ,#blog2-title ,#blog3-title ,#blog4-title {
+    font-family: sans-serif;
+    font-size:33px;
+    font-weight:  bolder;
+
+
+
+}
+
+#blog1 .sub-title1 ,#blog2 .sub-title2,#blog3 .sub-title3,#blog4 .sub-title4  {
+    color:rgb(155, 149, 149);
+
+
+}
+
+#blog1 .pipe ,#blog2 .pipe ,#blog3 .pipe ,#blog4 .pipe  {
+    font-size: 35px;
+
+
+}
+
+
+#blog1-p ,#blog2-p ,#blog3-p ,#blog4-p {
+    font-size: 20px;
+
+
+
+
+}
+
+#blog1 ,#blog2 ,#blog3 ,#blog4 {
+    transition: all 0.4s;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 0.1s; */
+
+
+}
+
+#blog1:hover ,#blog2:hover ,#blog3:hover ,#blog4:hover {
+    transform: translate(4px,-4px);
+
+
+}
+
+.social-media i{
+    font-size: 40px;
+    color:rgb(2, 2, 49);
+    margin-bottom:30px;
+    transition:all 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.social-media i:hover{
+    transform: translate(4px,-4px);
+
+    
+}
+
+#footer h6 {
+    font-family: sans-serif;
+    color:rgb(2, 2, 49);
+}
+
+
